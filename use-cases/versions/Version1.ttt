@@ -23,8 +23,8 @@ json-2-csv uses deeks
 json-2-csv uses doc-path
 json-schema-faker uses json-schema-ref-parser
 json-schema-faker uses jsonpath-plus
-jsonpath-plus uses jsep-plugin/assignment
-jsonpath-plus uses jsep-plugin/regex
+jsonpath-plus uses 'jsep-plugin/assignment'
+jsonpath-plus uses 'jsep-plugin/regex'
 jsonpath-plus uses jsep
 jsonwebtoken uses jws
 jsonwebtoken uses lodash.includes
