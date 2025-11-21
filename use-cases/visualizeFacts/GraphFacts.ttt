@@ -1,0 +1,32 @@
+# Facts on graphs
+
+Graph(structure) has(from:0,to:n) Node(vertex)
+Graph has(from:0,to:n) Edge(link)
+Node has(from:0,to:n) Label(attribute)
+Edge has(from:0,to:n) Label
+Edge has Start(vertex)
+Edge has End(vertex)
+Loop(link) is Edge
+Start is Node
+End is Node
+Node has(from:0,to:n) Property(attribute)
+Edge has(from:0,to:n) Property
+Property has Name(attribute)
+Property has Value(attribute)
+String(attribute) is Value
+Boolean(attribute) is Value
+Number(attribute) is Value
+Tree(structure) is Graph
+SpanningTree(structure) is Tree
+Concept(vertex) is Node
+Node has(from:1,to:1) Concept
+Relationship(link) is Edge
+Edge has(from:1,to:1) Relationship
+Digest(structure) is Graph
+Digest has(from:0,to:n) Concept
+Digest has(from:0,to:n) Relationship
+Concept has Color(attribute)
+Concept has Layout(attribute)
+Concept has Shape(attribute)
+Relationship has Color
+
